@@ -6,7 +6,7 @@ import numpy as np
 
 app = FastAPI(title="API de Prédiction Immobilière")
 
-# Chargement du modèle pré-entraîné (assure-toi d'avoir enregistré ton RandomForest quelque part)
+# Chargement du modèle pré-entraîné 
 model = joblib.load("best_model.pkl")  # Sauvegarde du modèle lors de l'entraînement avec joblib
 
 # Définition d'un schéma de données pour l'entrée

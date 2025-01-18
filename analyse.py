@@ -39,7 +39,7 @@ for col in df.columns:
 
 
 # 4) NORMALISATION / STANDARDISATION ET DIVISION EN ENSEMBLES D’ENTRAÎNEMENT ET DE TEST
-# projet.py
+
 
 def get_train_test_data():
     from sklearn.preprocessing import StandardScaler

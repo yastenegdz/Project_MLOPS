@@ -8,7 +8,7 @@ from sklearn.svm import SVR
 from sklearn.neural_network import MLPRegressor
 from sklearn.model_selection import cross_val_score
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
-from projet import get_train_test_data
+from analyse import get_train_test_data
 from sklearn.datasets import fetch_california_housing
 import pandas as pd
 import numpy as np
